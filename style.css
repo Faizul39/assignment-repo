@@ -2,26 +2,43 @@ body{
     font-family:'roboto', sans-serif;
     margin: 0;   
 }
+
 section{
     height: 500px;
     padding-bottom: 150px;
 }
+
 .top-banner{
     background-image: url();
     background-repeat: no-repeat;
 }
+
 .half-width{
-    width: 40%;
+    width: 100%;
     float: left;
-    margin-left: 5%;
+    margin-left: 2%;
     padding-left: 2%;
 }
+.heder{
+    text-align: center;
+    box-sizing: border-box;
+}
+
+.half-width-card{
+    width: 25%;
+    float: left;
+    margin-left: 2%;
+    padding-left: 2%;
+}
+
 h1{
     font-size: 50px;
 }
+
 .half-width img{
     width: 100%;
 }
+
 .link-button{
     text-decoration: none;
     background-image: linear-gradient(orange,tomato);
@@ -30,15 +47,63 @@ h1{
     color: white;
     font-weight: 700;   
 }
+
 .flexible-container{
     display: flex;
     margin-bottom: 150px;
 }
+
 .dream-area{
   background-image:url("image/Frame.jpg");
   background-repeat: no-repeat;
   background-position: right;
 }
+
+.recipie-area{
+    background-repeat: no-repeat;
+    background-position: center;
+    text-align: center;
+}
+
+.card{
+    width: 300px;
+    margin-left: 20%;
+    margin-right: 20;
+    box-sizing: border-box;
+    box-shadow: 1px 2px 4px black;
+}
+
+.image-style{
+     width: 100%;
+     border-radius: 10px;
+     box-shadow: 1px 2px 4px black;
+}
+
+.card-body{
+    border-radius: 3%;
+    border-left:10%;
+    box-shadow:5px 7px 40px grey;
+    height:100%; 
+    text-align: left;
+}
+
+.card-body{
+    padding: 5px;
+}
+
+.card-body .card-title{
+    font-size: 2rem;
+    text-align: center;
+}
+
+.card-body .card-desc{
+    text-align: justify;
+    line-height: 1.5;
+    color: black;
+}
+
+
+
 
 
 
